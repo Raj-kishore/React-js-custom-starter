@@ -1,9 +1,15 @@
-# to create git repo in local
+# to reinitialize local repo and clearing remote(origin) repos
 git init
 
 # to add remote origin repo url 
 git remote add <name> <url>
 i.e. git remote add origin git@github.com:Raj-kishore/React-js-custom-starter.git
+
+# to update remote origin repo url 
+git remote set-url origin <url>
+
+# check existing remotes
+git remote -v
 
 # create master branch in remote and push 
 git push --set-upstream origin master
