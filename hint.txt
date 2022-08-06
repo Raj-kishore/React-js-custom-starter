@@ -7,3 +7,6 @@ i.e. git remote add origin git@github.com:Raj-kishore/React-js-custom-starter.gi
 
 # create master branch in remote and push 
 git push --set-upstream origin master
+
+# Custom toolchain guide 
+https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658 
