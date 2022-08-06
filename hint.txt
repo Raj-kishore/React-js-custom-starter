@@ -1,0 +1,9 @@
+# to create git repo in local
+git init
+
+# to add remote origin repo url 
+git remote add <name> <url>
+i.e. git remote add origin git@github.com:Raj-kishore/React-js-custom-starter.git
+
+# create master branch in remote and push 
+git push --set-upstream origin master
